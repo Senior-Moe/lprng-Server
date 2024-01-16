@@ -4,6 +4,8 @@ Setup Print Server via LPRng for Oracle WMS
 <img src="https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white" />
 <img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=Oracle&logoColor=white" /> 
 <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+<br />
+<img src="images/Topolgy.jpg" />
 
 ## Introduction
 On Oracle WMS or Logfire prefered to make print server to sure print the labels. Unfortunately, On Oracle WMS or Logfire only use port "9100" and "515". In table below, it is showing the diffrent between them and on this script you will install [LPRng](https://lprng.sourceforge.net/).
