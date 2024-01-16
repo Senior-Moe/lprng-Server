@@ -83,3 +83,4 @@ sudo service lprng restart
 echo -e "\n\033[4;36mRunning SMB Again\033[0m"
 sudo service smbd restart
 echo -e "\n\033[4;36mThe Server is Ready\033[0m"
+echo -e "\033[41mFinished, Please Read Readme.md file\033[0m" >&2 \

@@ -19,3 +19,35 @@ On Oracle WMS or Logfire prefered to make print server to sure print the labels.
 * APT Package Manager (Up-to-Date).
 * Internet
 * Static IP from ISP. 
+
+## Usage
+To use script, just clone it and run /install.sh/ script.
+
+``` bash
+git clone https://github.com/Mohammed-Alnahdi/lprng-Server.git
+cd lprng-Server
+sudo bash install.sh
+```
+
+#### Note
+The script will remove Cups and not run without root privilige.
+
+### How add new printer
+For adding new printer or change details for printer, you can modifying file /etc/printcap and add <your-printer-name> with <local-ip-for-printer>
+
+``` bash
+$<your-printer-name>|localprinter:\
+:lp=<local-ip-for-printer>%9100:\
+:sd=/var/spool/lpd/<your-printer-name>:\
+:mx#0:\
+:sh:" 
+```
+
+#### Note
+Don't duplicate printer name or IP.
+
+### WMS side Setup
+go to adding printer page and set your printer there as below: 
+<br />
+<img src="images/print_option.jpg" />
+
