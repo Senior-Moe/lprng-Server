@@ -1,5 +1,6 @@
 # lprng-Server
-Setup Print Server via LPRng for WMS Oracle
+Setup Print Server via LPRng for Oracle WMS 
+<br />
 <img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=Oracle&logoColor=white" /> 
 <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
 
