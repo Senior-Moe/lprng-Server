@@ -1,6 +1,7 @@
 # lprng-Server
 Setup Print Server via LPRng for Oracle WMS 
 <br />
+<img src="https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white" />
 <img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=Oracle&logoColor=white" /> 
 <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
 
@@ -14,7 +15,7 @@ On Oracle WMS or Logfire prefered to make print server to sure print the labels.
 
 ## Requirment
 
-* Debian Distro
+* Debian 12 Distro
 * APT Package Manager (Up-to-Date).
 * Internet
 * Static IP from ISP. 
