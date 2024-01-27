@@ -53,3 +53,5 @@ go to adding printer page and set your printer there as below:
 <br />
 <img src="images/print_option.jpg" />
 
+#### Note
+Don't forget to make forward in your router to your server IP on port 515. 
